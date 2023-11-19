@@ -2,6 +2,8 @@
   text-align: center;
 }
 
+
+
 header {
   background-color: #1976d2;
   padding: 1rem;
@@ -16,10 +18,7 @@ input {
   margin-bottom: 1rem;
 }
 
-
-
 .search-bar-container {
- 
   max-width: 500px;
   margin: 1rem auto;
 }

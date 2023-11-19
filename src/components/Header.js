@@ -1,13 +1,19 @@
 import React from "react";
-import { Typography } from "@mui/material";
+import { AppBar, Toolbar, Typography, IconButton } from "@mui/material";
+import CloudIcon from "@mui/icons-material/Cloud";
 
 const Header = () => {
   return (
-    <header
-      style={{ backgroundColor: "#1976d2", padding: "1rem", color: "#fff" }}
-    >
-      <Typography variant="h4">Weather App</Typography>
-    </header>
+    <AppBar position="static" color="primary">
+      <Toolbar>
+        <IconButton edge="start" color="inherit" aria-label="menu">
+          <CloudIcon />
+        </IconButton>
+        <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
+          Weather App
+        </Typography>
+      </Toolbar>
+    </AppBar>
   );
 };
 
