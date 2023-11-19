@@ -28,7 +28,7 @@ This is a simple weather application built using ReactJS. It allows users to sea
 5. Open your browser and visit http://localhost:3000 to view the application.
 
 ## Live Demo
-Check out the live demo of the app on Vercel: [Weather App](https://your-vercel-app-url.vercel.app)
+Check out the live demo of the app on Vercel: [Weather App](https://weather-app-nine-ecru-96.vercel.app/)
 
 ## Customization
 To customize the background styles for different weather conditions, update the CSS in App.css.
