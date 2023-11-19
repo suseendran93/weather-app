@@ -20,11 +20,12 @@ This is a simple weather application built using ReactJS. It allows users to sea
    ```bash
    npm install
    ```
-3. Run the application:
+3. Replace the placeholder in WeatherService.js with your actual OpenWeatherMap API key.
+4. Run the application.
    ```bash
    npm start
    ```
-4. Open your browser and visit http://localhost:3000 to view the application.
+5. Open your browser and visit http://localhost:3000 to view the application.
 ## Customization
 To customize the background styles for different weather conditions, update the CSS in App.css.
 You can expand the list of cities in the dropdown by modifying the cityOptions array in SearchBar.js.
